@@ -24,7 +24,7 @@
   position: relative;
   width: 100%;
   padding: 29px;
-  background-image: url(images/banner-bg.jpg);
+  background-image: url(../images/banner-bg.jpg);
   background-size: cover;
   margin-bottom: 50px;
 }
@@ -142,7 +142,7 @@
   -moz-appearance: none;
   width: 100%;
   height: 100%;
-  background-image: url(svg/form-x.svg);
+  background-image: url(../svg/form-x.svg);
   background-color: transparent;
   background-size: cover;
   border-style: none;
@@ -180,7 +180,7 @@
   font-family: open-sans, sans-serif;
   padding: 0 15px;
   background-color: #f4f7f6;
-  background-image: url(svg/form-arrows.svg);
+  background-image: url(../svg/form-arrows.svg);
   background-repeat: no-repeat;
   background-position: right 15px center;
   background-size: auto 17px;
@@ -214,7 +214,7 @@
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(svg/form-empty-circle.svg);
+  background-image: url(../svg/form-empty-circle.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 20px;
@@ -223,7 +223,7 @@
 }
 
 .radio:checked ~ .radio-group-text::before {
-  background-image: url(svg/form-circle.svg);
+  background-image: url(../svg/form-circle.svg);
 }
 
 .radio {
@@ -297,19 +297,19 @@
 }
 
 .first {
-  background-image: url("images/trend1.jpg");
+  background-image: url("../images/trend1.jpg");
 }
 
 .second {
-  background-image: url("images/trend2.jpg");
+  background-image: url("../images/trend2.jpg");
 }
 
 .third {
-  background-image: url("images/trend3.jpg");
+  background-image: url("../images/trend3.jpg");
 }
 
 .fourth {
-  background-image: url("images/trend4.jpg");
+  background-image: url("../images/trend4.jpg");
 }
 
 .trend-topic-content {
@@ -535,7 +535,7 @@
   min-width: 48px;
   height: 48px;
   background-color: #b59f5b;
-  background-image: url(svg/search.svg);
+  background-image: url(../svg/search.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 20px;
@@ -759,23 +759,23 @@
 }
 
 .twitter {
-  background-image: url(svg/004-twitter.svg);
+  background-image: url(../svg/004-twitter.svg);
 }
 
 .pinterest {
-  background-image: url(svg/001-pinterest.svg);
+  background-image: url(../svg/001-pinterest.svg);
 }
 
 .facebook {
-  background-image: url(svg/002-facebook-logo.svg);
+  background-image: url(../svg/002-facebook-logo.svg);
 }
 
 .instagram {
-  background-image: url(svg/005-instagram.svg);
+  background-image: url(../svg/005-instagram.svg);
 }
 
 .tumblr {
-  background-image: url(svg/003-tumblr.svg);
+  background-image: url(../svg/003-tumblr.svg);
 }
 
 .copyright {
@@ -788,7 +788,7 @@
 
 @media (max-width: 1199px) {
   .header {
-    background-image: url(images/banner-bg-tablet.jpg);
+    background-image: url(../images/banner-bg-tablet.jpg);
   }
 
   .for-menu {
@@ -903,7 +903,7 @@
 
 @media (max-width: 767px) {
   .header {
-    background-image: url(images/banner-mobile.jpg);
+    background-image: url(../images/banner-mobile.jpg);
   }
 
   .popup-field {
